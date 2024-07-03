@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^eddersonvargas.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.eddersonvargas.com$
-RewriteCond %{REQUEST_URI} !dist/
-RewriteRule (.*) /subdirectory/$1 [L]
+RewriteCond %{REQUEST_URI} !personal_web/dist/
+RewriteRule (.*) /personal_web/dist/$1 [L]
